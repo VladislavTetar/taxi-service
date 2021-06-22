@@ -1,20 +1,20 @@
-#Taxi Service App
+# Taxi Service App
 This is a simple application 
 that representation the taxi service. 
 Here we can: 
-- Register or login as a **taxi 
-driver**.
+- Register or login as a **Taxi 
+Driver**.
 - View information 
-about **drivers**, **cars**, 
-**cars manufacturers**, which **car** 
+about **Drivers**, **Cars**, 
+**Cars Manufacturers**, which **Car** 
   is registered to 
-  the **driver**.
-- Add new **drivers, cars** and 
-**manufacturers**, register driver in different cars.
-- Register **driver** in different **cars**.
+  the **Driver**.
+- Add new **Drivers, Cars** and 
+**Manufacturers**.
+- Register **Driver** in different **Cars**.
 - Remove information from the database. 
 
-##Technologies used:
+## Technologies used:
 - Java
 - JDBC
 - Servlets
@@ -26,10 +26,10 @@ about **drivers**, **cars**,
 - Apache Maven
 - JSTL
 
-##Setup
-- Configure Apache Tomcat
-- Install MySQL and MySQL Workbench
-- Create a schema and all the necessary tables by using the script from *resources/init_db.sql* in MySQL Workbench
-- In the *taxi/util/ConnectionUtil.java* class change the "user", "password", "url", "jdbc_driver" properties to 
-  the ones you specified when installing MySQL 
-- Start the application
+## Setup
+1. Configure Apache Tomcat
+2. Install MySQL and MySQL Workbench
+3. Create a schema and all the necessary tables by using the script from *resources/init_db.sql* in MySQL Workbench
+4. In the *taxi/util/ConnectionUtil.java* class change the *"user", "password", "url", "jdbc_driver"* properties to 
+   the ones you specified when installing MySQL 
+5. Start the application
