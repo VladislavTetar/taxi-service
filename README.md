@@ -1,6 +1,9 @@
 # Taxi Service App
 This is a simple app 
 that representation the taxi service.
+
+![img](taxi.jpg)
+
 The application has such functions as: 
 - Register or login as a ``Taxi 
 Driver``.
